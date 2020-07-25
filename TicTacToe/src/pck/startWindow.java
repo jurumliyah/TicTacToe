@@ -71,6 +71,7 @@ public class startWindow extends Application {
 		try {
 			root = FXMLLoader.load(getClass().getResource("/startWindow.fxml")); 
 			primaryStage.setScene(new Scene(root));
+		    primaryStage.setResizable(false);
 			primaryStage.show();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
